@@ -4,6 +4,6 @@ export default `<?xml version="1.0"?>
   <title></title>
   <body>
     <paragraph>Hello World!</paragraph>
-    <paragraph>Lorem ipsum...</paragraph>
+    <paragraph>Lorem <emphasis>ipsum</emphasis>...</paragraph>
   </body>
 </example-article>`
