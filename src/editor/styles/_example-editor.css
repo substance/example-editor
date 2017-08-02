@@ -1,0 +1,21 @@
+.sc-example-editor {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sc-example-editor > .se-toolbar-wrapper {
+  flex: 0 0 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.sc-example-editor > .se-content-panel-wrapper {
+  flex: 1 1 0;
+  position: relative;
+}
+
+/* Margin and padding for content elements */
+.sc-example-editor .sc-container-editor > * {
+  margin: 10px 0;
+}

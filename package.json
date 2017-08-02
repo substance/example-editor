@@ -1,0 +1,19 @@
+{
+  "name": "simple-article",
+  "version": "1.0.0",
+  "description": "Substance Introductory Tutorial",
+  "main": "app.js",
+  "devDependencies": {
+    "ace-builds": "^1.2.2",
+    "font-awesome": "4.5.0",
+    "substance": "1.0.0-beta.7-preview.18",
+    "substance-bundler": "^0.18.4",
+    "substance-test": "^0.9.4"
+  },
+  "scripts": {
+    "bundle": "node make",
+    "start": "node make -s -w",
+    "dev": "node make dev -s -w"
+  },
+  "license": "ISC"
+}
