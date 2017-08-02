@@ -10,6 +10,10 @@
   border-bottom: 1px solid #ddd;
 }
 
+.sc-example-editor > .se-toolbar-wrapper > .sc-toolbar {
+  padding: 4px 0px;
+}
+
 .sc-example-editor > .se-content-panel-wrapper {
   flex: 1 1 0;
   position: relative;
