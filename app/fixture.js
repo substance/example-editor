@@ -5,5 +5,6 @@ export default `<?xml version="1.0"?>
   <body>
     <paragraph>Hello World!</paragraph>
     <paragraph>Lorem <emphasis>ipsum</emphasis>...</paragraph>
+    <paragraph>Welcome to the <hyperlink href="http://substance.io">Substance</hyperlink> Example Editor!</paragraph>
   </body>
 </example-article>`

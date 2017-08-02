@@ -2,3 +2,5 @@
 @import './_title.css';
 @import './_body.css';
 @import './_paragraph.css';
+@import './_emphasis.css';
+@import './_hyperlink.css';

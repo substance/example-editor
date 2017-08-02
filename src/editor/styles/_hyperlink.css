@@ -1,0 +1,24 @@
+.sc-hyperlink {
+  color: #2079DC;
+}
+
+.sc-edit-hyperlink-tool {
+  display: flex;
+  align-items: center;
+}
+
+.sc-edit-hyperlink-tool > * {
+  flex: 0 0 0;
+}
+
+.sc-edit-hyperlink-tool .sc-input {
+  height: 24px;
+  font-size: 11px;
+  color: white;
+  min-width: 200px;
+  font-family: Monaco, 'Courier New';
+  padding: 5px;
+  background: transparent;
+  border: none;
+  margin: 2px;
+}
