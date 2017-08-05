@@ -47,7 +47,7 @@ export default {
   configure(config) {
     config.defineSchema({
       name: 'example-article',
-      ArticleClass: SubstanceDocument,
+      DocumentClass: SubstanceDocument,
       defaultTextType: 'paragraph'
     })
 
