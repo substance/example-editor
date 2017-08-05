@@ -12,6 +12,8 @@ import {
   ExampleArticle,
   Paragraph,
   Title,
+  Figure,
+  Caption,
   Emphasis,
   Hyperlink
 } from '../nodes'
@@ -21,6 +23,8 @@ import {
   ExampleArticleConverter,
   ParagraphConverter,
   TitleConverter,
+  FigureConverter,
+  CaptionConverter,
   EmphasisConverter,
   HyperlinkConverter
 } from '../converters'
@@ -29,6 +33,7 @@ import ExampleArticleComponent from './components/ExampleArticleComponent'
 import BodyComponent from './components/BodyComponent'
 import TitleComponent from './components/TitleComponent'
 import ParagraphComponent from './components/ParagraphComponent'
+import FigureComponent from './components/FigureComponent'
 import EmphasisComponent from './components/EmphasisComponent'
 import HyperlinkComponent from './components/HyperlinkComponent'
 
@@ -53,6 +58,8 @@ export default {
     config.addNode(Title)
     config.addNode(Body)
     config.addNode(Paragraph)
+    config.addNode(Figure)
+    config.addNode(Caption)
     config.addNode(Emphasis)
     config.addNode(Hyperlink)
 
@@ -61,6 +68,8 @@ export default {
     config.addConverter('xml', TitleConverter)
     config.addConverter('xml', BodyConverter)
     config.addConverter('xml', ParagraphConverter)
+    config.addConverter('xml', FigureConverter)
+    config.addConverter('xml', CaptionConverter)
     config.addConverter('xml', EmphasisConverter)
     config.addConverter('xml', HyperlinkConverter)
 
@@ -104,6 +113,7 @@ export default {
     config.addComponent('title', TitleComponent)
     config.addComponent('body', BodyComponent)
     config.addComponent('paragraph', ParagraphComponent)
+    config.addComponent('figure', FigureComponent)
     config.addComponent('emphasis', EmphasisComponent)
     config.addComponent('hyperlink', HyperlinkComponent)
 

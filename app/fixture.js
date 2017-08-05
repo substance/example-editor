@@ -6,5 +6,9 @@ export default `<?xml version="1.0"?>
     <paragraph>Hello World!</paragraph>
     <paragraph>Lorem <emphasis>ipsum</emphasis>...</paragraph>
     <paragraph>Welcome to the <hyperlink href="http://substance.io">Substance</hyperlink> Example Editor!</paragraph>
+    <figure image-source="assets/wind-florida-bird-egret-72133.jpg">
+      <title>Figure 1</title>
+      <caption>Lorem ipsum</caption>
+    </figure>
   </body>
 </example-article>`
