@@ -47,6 +47,7 @@ export default {
   configure(config) {
     config.defineSchema({
       name: 'example-article',
+      version: '1.0.0',
       DocumentClass: SubstanceDocument,
       defaultTextType: 'paragraph'
     })
@@ -98,14 +99,14 @@ export default {
     config.addTool('edit-hyperlink', EditHyperlinkTool)
 
     // Icons
-    config.addIcon('emphasis', { 
-      fontawesome: 'fa-italic' 
+    config.addIcon('emphasis', {
+      fontawesome: 'fa-italic'
     })
-    config.addIcon('hyperlink', { 
-      fontawesome: 'fa-link' 
+    config.addIcon('hyperlink', {
+      fontawesome: 'fa-link'
     })
-    config.addIcon('open-hyperlink', { 
-      fontawesome: 'fa-external-link' 
+    config.addIcon('open-hyperlink', {
+      fontawesome: 'fa-external-link'
     })
 
     // Components
