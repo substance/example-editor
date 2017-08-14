@@ -6,7 +6,7 @@
   "devDependencies": {
     "ace-builds": "^1.2.2",
     "font-awesome": "4.5.0",
-    "substance": "1.0.0-beta.7-preview.18",
+    "substance": "1.0.0-preview.1",
     "substance-bundler": "^0.18.4",
     "substance-test": "^0.9.4"
   },
